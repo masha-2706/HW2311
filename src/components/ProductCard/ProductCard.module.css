@@ -1,0 +1,43 @@
+.cardElem {
+    background-color: rgb(100, 100, 173);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(62, 62, 122);
+    padding: 10px;
+    width: 22%;
+    max-width: 33%;
+}
+.elemImage {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.elemName, .elemDescription {
+    margin-top: 8px;
+    color: rgb(25, 25, 51); 
+}
+
+.elemName {
+    font-size: 18px;
+}
+.elemName > span {
+    font-size: 20px;
+    color: rgb(175, 175, 226);
+    padding-left: 10px;
+}
+.elemDescription {
+    font-size: 15px;
+    text-indent: 5px;
+    margin-bottom: 10px;
+}
+.elemList {
+    list-style: none;
+    color: rgb(25, 25, 51); 
+    background-color: rgb(123, 123, 162);
+    border-radius: 5px;
+    max-width: 50% ;
+    padding: 3px;
+    margin: 2px auto;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(62, 62, 122);
+}
